@@ -8,7 +8,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Towards-AzurePortalServiceConnectionName'
+    azureSubscription: 'Towards-AzurePortal'
     appType: 'webAppLinux'
     appName: 'webcalculator-app1'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
