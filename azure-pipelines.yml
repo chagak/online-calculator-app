@@ -8,7 +8,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Azure-Devops Svc Connection'
+    azureSubscription: 'Dev-svc-connection'
     appType: 'webAppLinux'
-    appName: 'Webcalcualator'
+    appName: 'dev-web-app-chaga'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
